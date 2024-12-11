@@ -125,7 +125,6 @@ function renderLinksSection($title, $links)
                    title="<?= htmlspecialchars($link['url']) ?>"
                    class="bg-gray-100 rounded-lg p-4 block relative group"
                    target="_blank">
-                    <p class="text-sm text-gray-600"><?= htmlspecialchars($link['domain']) ?></p>
                     <span class="text-blue-500 font-semibold"><?= htmlspecialchars($link['domain']) ?></span>
 
                     <span class="absolute bottom-full left-1/2 transform -translate-x-1/2 -translate-y-2 bg-black text-white text-xs rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
